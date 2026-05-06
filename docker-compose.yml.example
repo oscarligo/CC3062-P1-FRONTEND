@@ -1,11 +1,6 @@
 services:
-  web-app:
+  frontend:
     build: .
-    container_name: vanilla_js_app
+    container_name: CC3062_P1_FRONTEND
     ports:
-      - "8080:80"
-    volumes:
-      # Monta el código local en el contenedor para Hot Reloading
-      - .:/usr/share/nginx/html
-    environment:
-      - NODE_ENV=development
+      - "3400:80"

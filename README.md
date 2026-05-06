@@ -1,9 +1,20 @@
 
-# CC3062 — Proyecto 1 (Backend)
+# CC3062 — Proyecto 1 (Frontend)
 
-Backend  que expone una **API REST ** para gestionar **Películas**.
+Frontend simple para ver información de **Películas**, consumiendo una **API REST**.
 
 Repositorio con el back-end: <https://github.com/oscarligo/CC3062-P1-BACKEND.git>
+
+## Ejecutar (Vite)
+
+1. Instalar dependencias: `npm install`
+2. (Opcional) Configurar API: `cp .env.example .env` y editar `VITE_API_BASE_URL`
+3. Levantar en desarrollo: `npm run dev`
+
+## Ejecutar (Docker)
+
+1. `docker compose up --build`
+2. Abrir: <http://localhost:3400>
 
 
 
@@ -19,14 +30,12 @@ project-root/
 │   ├── services/       # Llamadas a API
 │   ├── store/          # Estado global
 │   └── utils/          # Funciones puras y helpers
-├── css/                # Estilos
 └── assets/             # imágenes
-
 ```
 
 
 
-## API REST utilizada: 
+## API REST utilizada:
 
 Base URL: `http://localhost:8080` (si se ejecuta con los valores por defecto)
 

@@ -3,8 +3,4 @@ services:
     build: .
     container_name: CC3062_P1_FRONTEND
     ports:
-      - "3400:80"
-    volumes:
-      - .:/usr/share/nginx/html
-    environment:
-      - NODE_ENV=development
+      - "3000:80"

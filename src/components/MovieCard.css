@@ -1,0 +1,56 @@
+/* src/components/MovieCard/MovieCard.css */
+
+.movie-card {
+    background-color: var(--card-bg); 
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #333;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    border-color: var(--primary-color); 
+}
+
+.movie-card h3 {
+    color: var(--text-color); 
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.movie-card .genre-tag {
+    display: inline-block;
+    background-color: rgba(229, 9, 20, 0.1); 
+    color: var(--primary-color);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.movie-card .details-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+    width: 100%;
+}
+
+.movie-card .details-btn:hover {
+    filter: brightness(0.8); 
+}
