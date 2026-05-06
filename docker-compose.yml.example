@@ -1,0 +1,11 @@
+services:
+  web-app:
+    build: .
+    container_name: vanilla_js_app
+    ports:
+      - "8080:80"
+    volumes:
+      # Monta el código local en el contenedor para Hot Reloading
+      - .:/usr/share/nginx/html
+    environment:
+      - NODE_ENV=development
