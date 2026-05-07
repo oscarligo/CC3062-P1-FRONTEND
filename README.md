@@ -12,7 +12,7 @@ Proyecto funcionando en internet: <https://rompich.site>
 
 ## Reflexión sobre el uso de tecnologías. 
 
-No me llamó la atención realizar una aplicación completamente con JavaScript Vanilla. Me pareció que el codigo era poco escalable y me resultó dificil encontrar una guía para poder seguir un patrón eficiente para el desarrollo. 
+No me resultó tan atractivo desarrollar una aplicación únicamente con JavaScript Vanilla. Me paració que el código era poco escalable y me costó encontrar una guía clara que me permitiera seguir un patrón de diseño y arquitectura eficiente. Aun así, el reto me pareció interesante, ya que me ayudó a comprender mejor el funcionamiento del DOM y a valorar cómo, incluso sin utilizar librerías, JavaScript ofrece herramientas muy útiles para crear aplicaciones completas desde cero.
 
 ### Requisitos para levantar.
 
