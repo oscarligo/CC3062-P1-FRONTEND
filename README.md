@@ -1,7 +1,7 @@
 
 # CC3062 — Proyecto 1 (Frontend)
 
-Frontend simple para ver información de **Películas**, consumiendo una **API REST**.
+Frontend con Vanilla JS para ver información de **Películas**, consumiendo una **API REST**.
 
 Repositorio con el back-end: <https://github.com/oscarligo/CC3062-P1-BACKEND.git>
 
