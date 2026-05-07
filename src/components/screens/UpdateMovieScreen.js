@@ -14,7 +14,7 @@ export const createUpdateMovieScreen = () => {
         <div class="inline-form">
             <label class="field">
                 <span class="field__label">ID a actualizar</span>
-                <input name="id" type="text" placeholder="1" />
+                <input name="id" type="text" placeholder="ID a actualizar" />
             </label>
         </div>
     `;

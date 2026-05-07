@@ -25,22 +25,22 @@ export const createMovieForm = ({
         <div class="form-grid">
             <label class="field">
                 <span class="field__label">Título</span>
-                <input name="title" type="text" placeholder="The Matrix" />
+                <input name="title" type="text" placeholder="Ejemplo: El Señor de los Anillos" />
             </label>
 
             <label class="field">
                 <span class="field__label">Género</span>
-                <input name="genre" type="text" placeholder="Sci-Fi" />
+                <input name="genre" type="text" placeholder="Ejemplo: Acción" />
             </label>
 
             <label class="field">
                 <span class="field__label">Año</span>
-                <input name="year" type="number" placeholder="1999" />
+                <input name="year" type="number" placeholder="Ejemplo: 2020" />
             </label>
 
             <label class="field">
                 <span class="field__label">Rating</span>
-                <input name="rating" type="number" step="0.1" placeholder="4.5" />
+                <input name="rating" type="number" step="0.1" placeholder="Ejemplo: 4.5" />
             </label>
 
             <label class="field field--full">

@@ -13,7 +13,7 @@ export const createDeleteMovieScreen = () => {
         <form class="inline-form" data-form>
             <label class="field">
                 <span class="field__label">ID</span>
-                <input name="id" type="text" placeholder="1" required />
+                <input name="id" type="text" placeholder="ID de la película" required />
             </label>
             <button class="btn danger" type="submit">Eliminar</button>
         </form>
