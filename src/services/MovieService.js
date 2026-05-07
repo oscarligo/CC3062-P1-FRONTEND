@@ -1,6 +1,17 @@
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080').replace(/\/+$/, '');
 const MOVIES_URL = `${API_BASE_URL}/movies`;
 
+/*
+
+MOVIES SERVICE
+
+This module provides functions to interact with the movies API, including fetching all movies,
+fetching a movie by ID, creating a new movie, updating an existing movie, and deleting a movie. 
+Each function uses a common request helper that handles HTTP requests and responses, 
+including error handling and response parsing.
+*/
+
+
 const request = async (url, { method = 'GET', body, headers } = {}) => {
     const response = await fetch(url, {
         method,

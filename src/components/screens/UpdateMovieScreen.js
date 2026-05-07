@@ -2,6 +2,8 @@ import { updateMovie } from '../../services/MovieService.js';
 import { createApiResult } from '../ApiResult.js';
 import { createMovieForm } from '../MovieForm.js';
 
+// Screen for updating an existing movie by ID. 
+
 export const createUpdateMovieScreen = () => {
     const root = document.createElement('section');
     root.className = 'screen';

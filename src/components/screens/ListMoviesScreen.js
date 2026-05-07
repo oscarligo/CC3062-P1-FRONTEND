@@ -2,6 +2,9 @@ import { getMovies } from '../../services/MovieService.js';
 import { createMovieCard } from '../MovieCard.js';
 import { createApiResult } from '../ApiResult.js';
 
+
+// Screen for listing all movies. It includes a reload button to refresh the list.
+
 export const createListMoviesScreen = () => {
     const root = document.createElement('section');
     root.className = 'screen';
@@ -38,6 +41,7 @@ export const createListMoviesScreen = () => {
         });
     };
 
+    // Function to load movies from the API and render them.
     const load = async () => {
         reloadBtn.disabled = true;
         result.clear('Cargando...');

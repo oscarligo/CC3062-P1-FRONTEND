@@ -1,3 +1,8 @@
+/*
+Reusable form component for creating/updating movies. 
+*/
+
+// Auxiliar functions to handle form input values
 const toNumberOrUndefined = (value) => {
     if (value === undefined || value === null) return undefined;
     const trimmed = `${value}`.trim();
@@ -11,6 +16,9 @@ const cleanOrUndefined = (value) => {
     const trimmed = `${value}`.trim();
     return trimmed === '' ? undefined : trimmed;
 };
+
+
+// Form Component
 
 export const createMovieForm = ({
     initialMovie = {},
@@ -70,6 +78,8 @@ export const createMovieForm = ({
         ratingEl.value = movie.rating ?? '';
         posterEl.value = movie.poster ?? '';
     };
+
+    
 
     const getMovie = () => {
         const payload = {

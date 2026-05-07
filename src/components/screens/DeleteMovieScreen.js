@@ -1,6 +1,8 @@
 import { deleteMovie } from '../../services/MovieService.js';
 import { createApiResult } from '../ApiResult.js';
 
+
+// Screen for deleting a movie by its ID.
 export const createDeleteMovieScreen = () => {
     const root = document.createElement('section');
     root.className = 'screen';
@@ -26,6 +28,8 @@ export const createDeleteMovieScreen = () => {
     const result = createApiResult({ title: 'Respuesta' });
     root.appendChild(result.root);
 
+
+    // Handle form submission to delete the specified movie and display the API response.
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
 

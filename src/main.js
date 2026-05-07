@@ -6,6 +6,10 @@ import { createCreateMovieScreen } from './components/screens/CreateMovieScreen.
 import { createUpdateMovieScreen } from './components/screens/UpdateMovieScreen.js';
 import { createDeleteMovieScreen } from './components/screens/DeleteMovieScreen.js';
 
+// Main application entry point. It sets up the navigation and renders the appropriate screen based on user interaction.
+
+
+// Define the available screens in the application, each with a unique key.
 const SCREENS = [
     { key: 'list', label: 'GET /movies', build: createListMoviesScreen },
     { key: 'getById', label: 'GET /movies/{id}', build: createGetMovieByIdScreen },
@@ -13,7 +17,7 @@ const SCREENS = [
     { key: 'update', label: 'PUT /movies/{id}', build: createUpdateMovieScreen },
     { key: 'delete', label: 'DELETE /movies/{id}', build: createDeleteMovieScreen },
 ];
-
+// Initialize the application by rendering the navigation and the default screen.
 const init = () => {
     const appEl = document.getElementById('app');
     const navEl = document.getElementById('app-nav');
@@ -21,6 +25,7 @@ const init = () => {
     if (!appEl) throw new Error('No se encontró #app');
     if (!navEl) throw new Error('No se encontró #app-nav');
 
+    // Function to render a specific screen based on its key. 
     const render = (key) => {
         const screen = SCREENS.find((s) => s.key === key) || SCREENS[0];
 
@@ -33,6 +38,8 @@ const init = () => {
     };
 
     navEl.innerHTML = '';
+
+    // Create navigation buttons for each screen and set up click handlers to render the corresponding screen when clicked.
     SCREENS.forEach((screen) => {
         const btn = document.createElement('button');
         btn.type = 'button';

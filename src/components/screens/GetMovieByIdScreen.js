@@ -1,6 +1,8 @@
 import { getMovieById } from '../../services/MovieService.js';
 import { createApiResult } from '../ApiResult.js';
 
+// Screen for fetching a single movie by its ID. 
+
 export const createGetMovieByIdScreen = () => {
     const root = document.createElement('section');
     root.className = 'screen';
@@ -26,6 +28,7 @@ export const createGetMovieByIdScreen = () => {
     const result = createApiResult({ title: 'Respuesta' });
     root.appendChild(result.root);
 
+    // Handle form submission to fetch the specified movie and display the API response.    
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
 

@@ -1,3 +1,9 @@
+
+/**
+ * Component to display API results in a structured format, showing status and response data.
+ */
+
+
 export const createApiResult = ({ title = 'Resultado' } = {}) => {
     const root = document.createElement('section');
     root.className = 'api-result';
@@ -26,6 +32,7 @@ export const createApiResult = ({ title = 'Resultado' } = {}) => {
             statusEl.textContent = statusLabel || 'Error';
             statusEl.className = 'api-result__status is-error';
 
+            // Attempt to extract useful information from the error object
             const errorPayload = {
                 message: error.message,
                 status: error.status,

@@ -1,5 +1,9 @@
 import './MovieCard.css';
 
+/*
+Component to display movie information in a card format. 
+ */
+
 export const createMovieCard = (movie) => {
     const card = document.createElement('div');
     card.className = 'movie-card';
