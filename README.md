@@ -10,7 +10,9 @@ Proyecto funcionando en internet: <https://rompich.site>
 
 <img width="1440" height="800" alt="Screenshot 2026-05-06 at 8 27 33 PM" src="https://github.com/user-attachments/assets/4726edc4-700e-47f2-9c97-82b4592c25b2" />
 
+## Reflexión sobre el uso de tecnologías. 
 
+No me llamó la atención realizar una aplicación completamente con JavaScript Vanilla. Me pareció que el codigo era poco escalable y me resultó dificil encontrar una guía para poder seguir un patrón eficiente para el desarrollo. 
 
 ### Requisitos para levantar.
 
