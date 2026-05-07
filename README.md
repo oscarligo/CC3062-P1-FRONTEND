@@ -10,6 +10,11 @@ Proyecto funcionando en internet: <https://rompich.site>
 
 <img width="1440" height="800" alt="Screenshot 2026-05-06 at 8 27 33 PM" src="https://github.com/user-attachments/assets/4726edc4-700e-47f2-9c97-82b4592c25b2" />
 
+## Challenges Implementados
+
+- Exportar la lista de series a CSV — generado manualmente desde JavaScript, sin librerías. El archivo debe descargarse desde el navegador.
+
+
 ## Reflexión sobre el uso de tecnologías. 
 
 No me resultó tan atractivo desarrollar una aplicación únicamente con JavaScript Vanilla. Me paració que el código era poco escalable y me costó encontrar una guía clara que me permitiera seguir un patrón de diseño y arquitectura eficiente. Aun así, el reto me pareció interesante, ya que me ayudó a comprender mejor el funcionamiento del DOM y a valorar cómo, incluso sin utilizar librerías, JavaScript ofrece herramientas muy útiles para crear aplicaciones completas desde cero.
