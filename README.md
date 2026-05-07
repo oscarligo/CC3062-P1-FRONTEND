@@ -5,6 +5,7 @@ Frontend simple para ver información de **Películas**, consumiendo una **API R
 
 Repositorio con el back-end: <https://github.com/oscarligo/CC3062-P1-BACKEND.git>
 
+Proyecto funcionando en internet: <https://rompich.site>
 
 
 <img width="1440" height="800" alt="Screenshot 2026-05-06 at 8 27 33 PM" src="https://github.com/user-attachments/assets/4726edc4-700e-47f2-9c97-82b4592c25b2" />
