@@ -31,7 +31,8 @@ project-root/
 ├── src/
 │   ├── main.js         # Orquestador inicial
 │   ├── components/     # Funciones que retornan HTML/Manipulan DOM
-│   └── services/       # Llamadas a API
+│   ├── services/       # Llamadas a API
+|   └── utils/          # Funciones auxiliares (para crear un CSV)
 └── assets/             # imágenes
 ```
 
