@@ -5,18 +5,16 @@ Frontend simple para ver información de **Películas**, consumiendo una **API R
 
 Repositorio con el back-end: <https://github.com/oscarligo/CC3062-P1-BACKEND.git>
 
-## Ejecutar (Vite)
 
-1. Instalar dependencias: `npm install`
-2. (Opcional) Configurar API: `cp .env.example .env` y editar `VITE_API_BASE_URL`
-3. Levantar en desarrollo: `npm run dev`
+### Requisitos para levantar.
 
-## Ejecutar (Docker)
+1. Docker y Docker Compose
+2. Copiar .env.example a un .env local
+3. En la raíz del proyecto levantar con:
 
-1. `docker compose up --build`
-2. Abrir: <http://localhost:3400>
-
-
+``` shell
+docker compose up --build 
+```
 
 ## Estructura del Proyecto
 
