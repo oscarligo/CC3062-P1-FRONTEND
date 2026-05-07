@@ -3,7 +3,6 @@ import { createMovieCard } from '../MovieCard.js';
 import { createApiResult } from '../ApiResult.js';
 import { downloadBlob, downloadText } from '../../utils/download.js';
 import { objectsToCsvUtf8 } from '../../utils/csv.js';
-import { createXlsxBlobFromObjects } from '../../utils/xlsx.js';
 
 
 // Screen for listing all movies. It includes a reload button to refresh the list.
